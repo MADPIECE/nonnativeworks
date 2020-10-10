@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cleaninstall": "rm -rf node_modules && rm -rf package-lock.json && npm cache clean --force && npm i"
   },
   "eslintConfig": {
     "extends": "react-app"
